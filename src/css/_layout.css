@@ -1,0 +1,37 @@
+
+.container {
+    padding: 0 50px;
+}
+
+.center-content {
+    height: calc(100vh - 60px - 41px);
+}
+
+.padd-top {
+    padding-top: 60px;
+}
+
+.padd-120 {
+    padding-top: 120px;
+}
+
+.upper {
+    text-transform: uppercase;
+}
+
+
+.desktop {
+    display: flex !important;
+}
+
+.mobile {
+    display: none !important;
+}
+
+
+@media (max-height: 700px) {
+    .center-content {
+        height: auto;
+    }
+}
+

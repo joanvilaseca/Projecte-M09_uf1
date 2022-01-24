@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'Outfit';
+    src: url('../webfonts/Outfit-Thin.woff2') format('woff2'),
+    url('../webfonts/Outfit-Thin.woff') format('woff'),
+    url('../webfonts/Outfit-Thin.ttf') format('truetype'),
+    url('../webfonts/Outfit-Thin.svg#Outfit-Thin') format('svg');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+

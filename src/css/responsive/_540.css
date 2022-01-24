@@ -1,0 +1,20 @@
+@media (max-width: 540px) {
+
+    /* ---------------
+          ARCHIVE
+    --------------- */
+    /* --- ITEM --- */
+    .archive-content-item img {
+        height: 100%;
+    }
+
+    .archive-content-item__flex {
+        flex-flow: column;
+        padding: 0 0 0 15px;
+    }
+
+    .archive-content-item__flex__right {
+        padding-top: 20px;
+        align-items: flex-start;
+    }
+}

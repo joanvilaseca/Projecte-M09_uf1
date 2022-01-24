@@ -1,0 +1,39 @@
+
+footer {
+    width: 100%;
+    height: 40px;
+    background-color: var(--white);
+    border-top: 1px solid var(--blue);
+}
+
+.footer-wrapper {
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-nav a {
+    border-bottom: none;
+}
+
+.footer-nav a:hover {
+    border-bottom: 1px solid var(--blue);
+}
+
+.footer-nav a:first-child {
+    margin-right: 15px;
+}
+
+body.blue-theme footer {
+    background-color: var(--blue);
+    border-top: 1px solid var(--white);
+}
+
+body.blue-theme .footer-wrapper {
+    color: var(--white);
+}
+
+body.blue-theme footer a:hover {
+    border-bottom: 1px solid var(--white);
+}

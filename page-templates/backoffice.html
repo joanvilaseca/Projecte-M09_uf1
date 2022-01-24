@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../src/css/main.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="src/img/favicon.png"/>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <title>BackOffice</title>
+</head>
+<body>
+
+<header>
+    <div class="px-3 py-2 bg-dark text-white">
+        <div class="container">
+            <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+                <a href="/" class="d-flex align-items-center my-2 my-lg-0 me-lg-auto text-white text-decoration-none">
+                    <svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap">
+                        <use xlink:href="#bootstrap"></use>
+                    </svg>
+                </a>
+
+                <ul class="nav col-12 col-lg-auto my-2 justify-content-center my-md-0 text-small">
+
+                    <li>
+                        <a href="login.html" class="nav-link text-white">
+                            <svg class="bi d-block mx-auto mb-1" width="24" height="24">
+                                <use xlink:href="#people-circle"></use>
+                            </svg>
+                            Tencar sessió
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</header>
+
+<section class="backoffice-wrapper">
+    <div class="sidebar d-flex flex-column flex-shrink-0 p-3 text-white bg-dark" style="width: 280px;">
+        <a href="../index.html" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-white text-decoration-none">
+            <span class="fs-4  roboto">Aerolínies Manolito</span>
+        </a>
+        <hr>
+        <ul class="nav nav-pills flex-column mb-auto roboto">
+            <li class="nav-item">
+                <a href="#" class="nav-link text-white" aria-current="page">
+                    Inici
+                </a>
+            </li>
+            <li>
+                <a href="#" class="nav-link text-white roboto">
+                    Pàgines
+                </a>
+            </li>
+            <li>
+                <a href="#" class="nav-link active roboto">
+                    Vols
+                </a>
+            </li>
+            <li>
+                <a href="#" class="nav-link text-white roboto">
+                    Reserves
+                </a>
+            </li>
+            <li>
+                <a href="#" class="nav-link text-white roboto">
+                    Aparença
+                </a>
+            </li>
+            <li>
+                <a href="#" class="nav-link text-white roboto">
+                    Configuració
+                </a>
+            </li>
+        </ul>
+        <hr>
+        <div class="dropdown">
+            <a href="#" class="d-flex align-items-center text-white text-decoration-none dropdown-toggle"
+               id="dropdownUser1" data-bs-toggle="dropdown" aria-expanded="false">
+                <img src="https://github.com/mdo.png" alt="" width="32" height="32" class="rounded-circle me-2">
+                <strong>Admin</strong>
+            </a>
+            <ul class="dropdown-menu dropdown-menu-dark text-small shadow" aria-labelledby="dropdownUser1">
+                <li><a class="dropdown-item" href="#">New project...</a></li>
+                <li><a class="dropdown-item" href="#">Settings</a></li>
+                <li><a class="dropdown-item" href="#">Profile</a></li>
+                <li>
+                    <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#">Sign out</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="backoffice__content">
+        <div class="backoffice__flight__item">
+            <div>
+                <h2>Barcelona -> París</h2>
+                <p>89.99€</p>
+            </div>
+            <a href="backoffice_single.html">Editar</a>
+        </div>
+        <div class="backoffice__flight__item">
+            <div>
+                <h2>Barcelona -> Moscow</h2>
+                <p>89.99€</p>
+            </div>
+            <a href="backoffice_single.html">Editar</a>
+        </div>
+        <div class="backoffice__flight__item">
+            <div>
+                <h2>Barcelona -> Canaries</h2>
+                <p>89.99€</p>
+            </div>
+            <a href="backoffice_single.html">Editar</a>
+        </div>
+        <div class="backoffice__flight__item">
+            <div>
+                <h2>Barcelona -> Londres</h2>
+                <p>89.99€</p>
+            </div>
+            <a href="backoffice_single.html">Editar</a>
+        </div>
+    </div>
+</section>
+
+<script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script src="../src/js/index.js"></script>
+</body>
+</html>

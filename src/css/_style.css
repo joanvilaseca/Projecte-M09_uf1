@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+/* ------------
+     COLORS
+ ------------ */
+
+/* Paleta de colors: https://coolors.co/000000-14213d-fca311-e5e5e5-ffffff */
+
+:root {
+    --grey: #E5E5E5;
+    --white: #FFFFFF;
+    --yellow: #fca311;
+    --soft_yellow: rgba(252, 163, 17, 0.67);
+    --blue: #14213D;
+    --soft_blue: #334362;
+    --black: #000000;
+}
+
+.bg-grey {
+    background-color: var(--grey);
+}
+
+.bg-white {
+    background-color: var(--white);
+}
+
+.bg-yellow {
+    background-color: var(--yellow);
+}
+
+.bg-blue {
+    background-color: var(--blue);
+}
+
+.bg-black {
+    color: var(--black);
+}
+
+.grey {
+    color: var(--grey);
+}
+
+.white {
+    color: var(--white);
+}
+
+.yellow {
+    color: var(--yellow);
+}
+
+.blue {
+    color: var(--blue);
+}
+
+.black {
+    color: var(--black);
+}
+
+/* ------------
+     FONTS
+ ------------ */
+
+.roboto, footer p, footer a, header li, header a, header p, input, textarea {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.outfit {
+    font-family: 'Outfit', sans-serif;
+}
+
+/* ------------
+     SIZES
+ ------------ */
+
+.t18 {
+    font-size: 18px;
+    line-height: 1.2em;
+}
+
+.t22 {
+    font-size: 22px;
+    line-height: 1.5em;
+}
+
+.t35 {
+    font-size: 35px;
+    line-height: 1.5em;
+}
+
+.t45 {
+    font-size: 45px;
+    line-height: 1.5em;
+}
+
+
+/* ------------
+    GENERALS
+ ------------ */
+* {
+    font-family: 'Outfit', serif;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+body.blue-theme {
+    background-color: var(--soft_blue);
+}
+
+body {
+    background-color: var(--grey);
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+    color: var(--blue);
+}
+
+textarea, input{
+    outline: none;
+}
+
+body a {
+    text-decoration: none;
+    color: inherit;
+}

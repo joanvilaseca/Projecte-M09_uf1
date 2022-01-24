@@ -1,0 +1,6 @@
+@media (max-width: 1240px) {
+    .archive-content-item img {
+        width: 250px;
+        height: 250px;
+    }
+}

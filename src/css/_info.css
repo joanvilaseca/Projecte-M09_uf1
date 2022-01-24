@@ -1,0 +1,49 @@
+/* ------------
+     BANNER
+ ------------ */
+
+section.section-info-banner {
+    background-color: var(--blue);
+    padding: 50px 0 70px 0;
+}
+
+.info-banner-wrapper {
+    width: 70%;
+}
+
+.info-banner-wrapper .yellow:hover {
+    color: var(--soft_yellow);
+}
+
+/* ------------
+     STORY
+ ------------ */
+
+.info-story__item {
+    width: 100%;
+    display: flex;
+    height: 100%;
+}
+
+.info-story__item:nth-child(even) {
+    flex-flow: row-reverse;
+}
+
+.info-story__item__img {
+    width: 50%;
+}
+
+.info-story__item__img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.info-story__item__content {
+    width: calc(50% - 100px);
+    padding: 30px 50px 60px 50px;
+}
+
+.info-story__item__content h2 {
+    padding-bottom: 15px;
+}

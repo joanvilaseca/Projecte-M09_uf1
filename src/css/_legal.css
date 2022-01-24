@@ -1,0 +1,18 @@
+
+section.section-legal {
+    padding: 100px 0;
+}
+
+
+.legal-wrapper {
+    width: 900px;
+    margin: auto;
+}
+
+.legal-wrapper h2 {
+    padding-bottom: 20px;
+}
+
+.legal-wrapper p {
+    padding-bottom: 50px;
+}

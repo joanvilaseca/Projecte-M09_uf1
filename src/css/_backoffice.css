@@ -1,0 +1,23 @@
+.backoffice-wrapper{
+    display: flex;
+}
+
+.sidebar{
+    height: calc(100vh - 80px);
+}
+
+.backoffice__content{
+    padding: 100px;
+}
+
+.backoffice__flight__item{
+    display: flex;
+    justify-content: space-between;
+    width: 40vw;
+}
+
+.backoffice__content-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(100px, auto);}

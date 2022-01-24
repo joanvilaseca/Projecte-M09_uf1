@@ -1,0 +1,122 @@
+@media (max-width: 1024px) {
+    /* ------------
+      CONTENIDORS
+    ------------ */
+    .container {
+        padding: 0 20px;
+    }
+
+    /* ------------
+ SIZES
+------------ */
+    .t18 {
+        font-size: 16px;
+        line-height: 1.2em;
+    }
+
+    .t22 {
+        font-size: 18px;
+        line-height: 1.5em;
+    }
+
+    .t35 {
+        font-size: 29px;
+        line-height: 1.5em;
+    }
+
+    /* ---------------
+        HEADER
+    --------------- */
+    .header-wrapper .menu {
+        display: none;
+    }
+
+    .mobile-menu-btn {
+        display: flex;
+    }
+
+    /* ---------------
+         FOOTER
+    --------------- */
+    .footer-nav a:first-child {
+        display: none;
+    }
+
+    /* ---------------
+        HOMEPAGE
+    --------------- */
+    /* -- INTRO -- */
+    .home-intro__text {
+        bottom: 3vh;
+        padding: 30px 50px;
+        max-width: 400px;
+        background-color: rgba(255, 255, 255, 0.65);
+    }
+
+
+    .home-products-wrapper {
+        margin-right: -10px;
+    }
+
+    .home-products__item {
+        width: 29vw;
+        height: 29vw;
+        padding: 10px;
+        margin-right: 10px;
+        border: none;
+    }
+
+    .home-products__item:hover {
+        border: none;
+    }
+
+    .home-products__item:last-child {
+        display: none;
+    }
+
+    /* ---------------
+          LEGAL
+    --------------- */
+    .legal-wrapper {
+        width: calc(100% - 40px);
+        margin: 0 20px;
+    }
+
+    /* ---------------
+          INFO
+    --------------- */
+    /* --- BANNER --- */
+    .info-banner-wrapper {
+        width: 80%;
+    }
+
+    /* ---------------
+          ARCHIVE
+    --------------- */
+    /* --- ITEM --- */
+    .archive-content-item img {
+        width: 200px;
+        height: 200px;
+    }
+
+
+    /* ---------------
+          SINGLE
+    --------------- */
+    /* --- BANNER --- */
+
+    .single-banner__content h2 {
+        position: absolute;
+        bottom: 60px;
+        left: 0;
+
+        -webkit-text-stroke-width: 1px;
+        -webkit-text-stroke-color: white;
+    }
+
+    /* --- CONTENT --- */
+    .single-content__reserve-btn {
+        margin: 80px 20px 0 0;
+    }
+
+}
