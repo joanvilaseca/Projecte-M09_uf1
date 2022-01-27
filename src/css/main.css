@@ -1,7 +1,7 @@
 @import "webfonts.css";
 @import "_style.css";
 
-@import url("_footer.css");
+@import url(./"_footer.css");
 @import "_layout.css";
 @import "_homepage.css";
 @import "_legal.css";
